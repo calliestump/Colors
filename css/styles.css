@@ -1,11 +1,17 @@
-.green-background {
-    background-color: green;
+.black-background {
+    background-color: black;
+    color: white
 }
 
-.yellow-background {
-    background-color: yellow;
+.white-background {
+    background-color: white;
 }
 
-.red-background {
-    background-color: red;
+.border {
+    border:2px blue;
+    padding: 4px;
+}
+
+.noBorder {
+    border: 0px transparent;
 }

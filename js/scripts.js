@@ -1,13 +1,18 @@
-$(document).read(function() {
-    $("button#green").click(function() {
-        $("body").addClass("green-background");
-});
-
-    $("button#yellow").click(function() {
-        $("body").addClass("yellow-background");
+$(document).ready(function() {
+    $("button#black-background").click(function() {
+        $("body").removeClass();
+        $("body").addClass("black-background");
+    });
+    
+    $("button#white-background").click(function() {
+        $("body").removeClass();
+        $("body").addClass("white-background");
     });
 
-    $("button#red").click(function() {
-        $("body").addClass("red-background");
+    $("p#border").click(function() {
+        $("p.noBorder").removeClass();
+        $("p.noBorder").addClass(".border");
     });
+
 });    
+
